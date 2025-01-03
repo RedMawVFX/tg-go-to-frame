@@ -192,6 +192,7 @@ def set_focus_and_select() -> None:
 # tkinker variables
 current_frame_at_startup = tk.StringVar()
 current_frame_var = tk.StringVar()
+current_frame_var.set("1")
 start_frame_var = tk.StringVar()
 end_frame_var = tk.StringVar()
 ERROR_SHOWN = False
